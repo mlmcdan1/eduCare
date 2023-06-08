@@ -1,0 +1,111 @@
+.main-register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.left-side{
+    flex: 0.33;
+    background: #26343D;
+
+}
+
+.header{
+    height: 15rem;
+    margin-top: 2rem;
+
+}
+
+#logo-img{
+    height: 10rem;
+    object-fit: cover;
+}
+
+.body{
+    height: 10rem;
+    margin-top: 2rem;
+}
+
+#reg-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.right-side{
+    flex: 0.67;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.top-right{
+    float: right;
+    margin-right: 1rem;
+    font-size: small;
+    font-weight: 200;
+}
+
+.left-p{
+    color: white;
+    padding: 1.8rem;
+    text-align: left;
+    font-size: smaller;
+}
+
+#Links-signin{
+    text-decoration: none;
+    cursor: pointer;
+    color: grey;
+    font-style: 600;
+    margin-left: .3rem;
+}
+
+#Links-signin:hover{
+    color: aqua;
+}
+
+.body-right{
+    height: 100%;
+    width: 100%;
+}
+
+.right-container{
+    height: 80%;
+    width: 60%;
+    margin: 2rem auto;
+    padding-top: 1rem;
+    box-shadow: 0rem 0rem 2rem 0.1rem #48ea98;
+    border-radius: 0.5rem;
+
+}
+
+.input-group{
+    width: auto;
+    position: relative;
+}
+
+.input-h5{
+    font-size: small;
+    font-weight: 300;
+    color: gray;
+    position: absolute;
+    left: 7.5rem;
+    top: 0.5rem;
+    margin: 0.5rem auto;
+    background: white;
+}
+
+input{
+    width: 60%;
+    margin: 1.2rem auto;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem gray;
+}
+
+input:focus{
+    outline: none;
+}
